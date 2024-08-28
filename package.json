@@ -1,0 +1,19 @@
+{
+  "name": "clean-blog",
+  "version": "1.0.0",
+  "description": "\"# clean-blog\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
+  },
+  "author": "yagmur",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "prettier": "3.3.3"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
